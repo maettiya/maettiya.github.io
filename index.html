@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-[#dddddd] text-[#1a1a1a]">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/mm_32.png" />
+  <link rel="icon" type="image/png" sizes="64x64" href="/mm_64.png" />
+  <link rel="icon" type="image/png" sizes="180x180" href="/mm_180.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="/mm_512.png" />
+  <link rel="apple-touch-icon" href="/mm_180.png" />
+  <title>Matt McLuckie</title>
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="/public/mm-favicon.png" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet" />
+
+  <!-- Typography Setup -->
+  <style>
+    .serif { font-family: 'Playfair Display', serif; }
+    .mono  { font-family: 'IBM Plex Mono', monospace; }
+  </style>
+
+</head>
+
+<body class="bg-[#dddddd] min-h-screen">
+
+  <!-- CONTAINER -->
+  <div class="w-full max-w-none mx-auto px-12 py-20">
+
+    <!-- HEADER -->
+    <header class="w-full flex justify-between items-start mb-24">
+
+      <!-- Left: Name -->
+      <h1 class="serif text-3xl tracking-tight">
+        Matt McLuckie
+      </h1>
+
+      <!-- Right: Descriptor -->
+      <p class="mono uppercase text-xs leading-snug text-right max-w-xs">
+        Creative Technologist •
+        AI Product •
+        Full-Stack Engineering — Seoul
+      </p>
+
+    </header>
+
+    <!-- PROJECTS -->
+    <section class="w-full max-w-[1400px] mx-auto mt-32 px-8">
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
+
+        <!-- PROJECT CARD -->
+        <div class="flex flex-col space-y-4">
+
+          <!-- TITLE -->
+          <h3 class="serif text-xl leading-snug">handa — Cloud Workspace for Audio Projects</h3>
+
+          <!-- IMAGE CONTAINER (16:9) -->
+          <div class="relative w-full overflow-hidden bg-[#ccc] rounded-sm"
+              style="padding-top: 56.25%;">
+            <img src="/public/handa.png"
+                class="absolute inset-0 w-full h-full object-cover">
+          </div>
+
+          <!-- TECH STACK -->
+          <p class="mono uppercase text-[11px] tracking-wide">
+            Rails · Stimulus · Tailwind · Postgres · AWS S3 · Figma Prototype
+          </p>
+
+          <!-- DESCRIPTION TEXT -->
+          <p class="mono leading-relaxed text-[13px] max-w-[700px]">
+            A full-stack platform that rethinks how musicians and engineers exchange stems, DAW projects, and creative assets.
+            I designed and built the entire application end-to-end: uploading, versioning, metadata parsing, and a fast library UI inspired by macOS Finder. Includes a full Figma prototype of the final UX, plus functioning Rails backend and component-driven front-end architecture.
+
+            This project highlights my ability to combine product thinking, UI/UX, and engineering into a cohesive tool built for real daily creative workflows.
+          </p>
+
+        </div>
+
+        <!-- PROJECT CARD -->
+        <div class="flex flex-col space-y-4">
+
+          <!-- TITLE -->
+          <h3 class="serif text-xl leading-snug">P-MFA — Passive Proximity Authentication System</h3>
+
+          <!-- IMAGE CONTAINER (16:9) -->
+          <div class="relative w-full overflow-hidden bg-[#ccc] rounded-sm"
+              style="padding-top: 56.25%;">
+            <img src="/public/p-mfa.png"
+                class="absolute inset-0 w-full h-full object-cover">
+          </div>
+
+          <!-- TECH STACK -->
+          <p class="mono uppercase text-[11px] tracking-wide">
+            Node.js · Noble BLE · Express · System Design · Security Concepts
+          </p>
+
+          <!-- DESCRIPTION TEXT -->
+          <p class="mono leading-relaxed text-[13px] max-w-[700px]">
+            An experimental authentication system that detects passive phone proximity via BLE RSSI and uses it as an invisible second factor for login flows.
+            Built a working desktop listener in Node.js, designed system diagrams, defined security considerations, and filed a US provisional patent for the method.
+
+            This project highlights systems thinking, experimental engineering, and ability to design novel interfaces around real world signals.
+          </p>
+
+        </div>
+
+        <!-- PROJECT CARD -->
+        <div class="flex flex-col space-y-4">
+
+          <!-- TITLE -->
+          <h3 class="serif text-xl leading-snug">Kricket — AI Conversation Starter App</h3>
+
+          <!-- IMAGE CONTAINER (16:9) -->
+          <div class="relative w-full overflow-hidden bg-[#ccc] rounded-sm"
+              style="padding-top: 56.25%;">
+            <img src="/public/kricket.png"
+                class="absolute inset-0 w-full h-full object-cover">
+          </div>
+
+          <!-- TECH STACK -->
+          <p class="mono uppercase text-[11px] tracking-wide">
+            Ruby on Rails · OpenAI Chat Completions API · Stimulus · TailwindCSS · Vite
+
+          <!-- DESCRIPTION TEXT -->
+          <p class="mono leading-relaxed text-[13px] max-w-[700px]">
+            A playful, weird, AI-powered “conversation assistant.”
+            I designed the brand, UX, and full app, then built a Rails-based messaging engine using the OpenAI API to generate context-aware prompts when a conversation hits a lull.
+
+            Includes a full real-time front-end, custom UI, temperature selector, and BLE desktop listener written in Node.js to detect a user’s phone proximity for passive activation.
+
+            This project showcases my ability to prototype end-to-end AI features, integrate external APIs, and ship polished product UX quickly.
+          </p>
+
+        </div>
+
+        <!-- PROJECT CARD -->
+        <div class="flex flex-col space-y-4">
+
+          <!-- TITLE -->
+          <h3 class="serif text-xl leading-snug">AOPCTV — Custom Front-End Website for a Creative Studio</h3>
+
+          <!-- IMAGE CONTAINER (16:9) -->
+          <div class="relative w-full overflow-hidden bg-[#ccc] rounded-sm"
+              style="padding-top: 56.25%;">
+            <img src="/public/aopctv.png"
+                class="absolute inset-0 w-full h-full object-cover">
+          </div>
+
+          <!-- TECH STACK -->
+          <p class="mono uppercase text-[11px] tracking-wide">
+            Vite · TailwindCSS · Vanilla JavaScript · GitHub Pages
+          </p>
+
+          <!-- DESCRIPTION TEXT -->
+          <p class="mono leading-relaxed text-[13px] max-w-[700px]">
+            I designed and engineered a lightweight, high-performance front-end for AOPCTV, a creative studio working with brands like Cecil Wright Yachts, Mercedes-Benz, Kickers, and more.
+            Built using Vite and modular vanilla JavaScript, with subtle interactions, responsive typography, and a clean PG-Lang-inspired UI.
+            Focused on performance (sub-50ms interactions), clarity, and minimal visual language.
+
+            This project demonstrates strong design sensibility, clean UI engineering, and ability to build calm, elegant interfaces from scratch.
+          </p>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="mb-24">
+      <h2 class="serif text-3xl mb-4">About</h2>
+      <p class="mono uppercase text-xs leading-relaxed max-w-2xl">
+        Creative technologist based in Seoul.
+        I design and build AI-driven tools, interfaces, and prototypes — blending engineering,
+        product and design.
+        Previously founded AOPCTV; now focused on modern full-stack development and applied AI.
+      </p>
+    </section>
+
+    <!-- BOTTOM LEFT EMAIL -->
+    <div class="fixed bottom-8 left-8 mono uppercase text-[11px] tracking-wide">
+      <a href="mailto:mcluckiematt@gmail.com" class="hover:underline">
+        mcluckiematt@gmail.com
+      </a>
+    </div>
+
+    <!-- BOTTOM RIGHT LINKS -->
+    <div class="fixed bottom-8 right-8 mono uppercase text-[11px] tracking-wide flex space-x-4">
+
+      <a href="https://github.com/maettiya"
+        target="_blank"
+        class="hover:underline">
+        Github
+      </a>
+
+      <a href="https://www.linkedin.com/in/matthew-mcluckie/"
+        target="_blank"
+        class="hover:underline">
+        LinkedIn
+      </a>
+
+    </div>
+
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
